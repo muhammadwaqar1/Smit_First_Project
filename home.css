@@ -1,0 +1,24 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F0FAEF;
+}
+#navbar{
+    background-color: #1D3557;
+}
+footer{
+    background-color: #1D3557;
+}
+main{
+    flex: 1 0 auto;
+}
+#one{
+    background-color: #1D3557;
+}
+#two{
+    margin-bottom: 8px;
+    min-width: 45%;
+}

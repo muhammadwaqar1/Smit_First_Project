@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <title>Login page</title>
+</head>
+<body>
+    <div class="main">
+        <div class="log">
+            <div style="width: 460px; display: flex; justify-content: center; flex-direction: column; margin: 30px 0px;">
+                <h1 style=" text-align: center;">ADMIN Login</h1>
+                <div style="display: flex;"  class="icon ">
+                    <input type="text" class="in" placeholder="Full Name" id="fullName"><button  class="btntwo"><i class="fa-regular fa-user"></i></button>
+                </div>
+                <div style="display: flex; " class="icon">
+                    <input type="email" class="in" placeholder="Email" id="email"><button class="btntwo"><i class="fa-regular fa-envelope-open"></i></button>
+                </div>
+                <div style="display: flex; " class="icon">
+                    <input type="password" class="in" placeholder="Password" id="password"><button class="btntwo"><i class="fa-solid fa-unlock-keyhole"></i></button>
+                </div>
+                <p style="margin-left: auto; padding: 10px 0px; font-size: 20px;">Lost password</p>
+                <button class="btn" onclick="login()">Login</button>
+            </div>
+           
+        </div>
+    </div>
+   
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/d8fd7cd37a.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+</html>
